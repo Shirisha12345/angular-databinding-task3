@@ -1,0 +1,8 @@
+<div ng-app="">
+    <p>Child component</p>
+        <p>Enter some text: <input type="text" #text></p>
+       
+          <button (click)="gettext(text.value)">Submit</button>
+
+      <p>Entered Text:{{text.value}}</p>
+      </div>
